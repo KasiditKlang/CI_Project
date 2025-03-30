@@ -3,7 +3,7 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 async function testGemini() {
   try {
-    const API_KEY = "AIzaSyBi3vkr-oH8wWsg7-Mfg7UQ46wf3GnfVmo"; // Replace with your actual key
+    const API_KEY = "AIzaSyDPXj5MdpzHNhUp4RWSZaff1s2uixgtynE"; // Replace with your actual key
     const genAI = new GoogleGenerativeAI(API_KEY);
     
     // Use the correct model name from your available models
